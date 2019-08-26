@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Functional Test Suite" parallel="methods" thread-count="1"
+  data-provider-thread-count="1" verbose="10">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Functional">
+    <packages>
+      <package name="com.paylease.app.qa.manual.tests.admin"/>
+      <package name="com.paylease.app.qa.manual.tests.backend"/>
+      <package name="com.paylease.app.qa.manual.tests.integration"/>
+    </packages>
+  </test>
+</suite>

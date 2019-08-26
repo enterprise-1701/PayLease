@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="E2E Test Suite" parallel="tests" data-provider-thread-count="18" verbose="5">
+  <parameter name="browser" value="Chrome"/>
+  <test name="End to End">
+    <packages>
+      <package name="com.paylease.app.qa.e2e.tests.admin"/>
+      <package name="com.paylease.app.qa.e2e.tests.integration"/>
+      <package name="com.paylease.app.qa.e2e.tests.pm"/>
+      <package name="com.paylease.app.qa.e2e.tests.resident"/>
+    </packages>
+  </test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Main Suite">
+  <parameter name="report.config" value="src/test/resources/config/extent-config.xml"/>
+  <listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    <listener class-name="com.paylease.app.qa.framework.utility.listeners.RetryListener"/>
+    <listener class-name="com.paylease.app.qa.framework.utility.listeners.TestListener"/>
+  </listeners>
+  <suite-files>
+    <suite-file path="testng-functional.xml"/>
+    <suite-file path="testng-e2e.xml"/>
+  </suite-files>
+</suite>

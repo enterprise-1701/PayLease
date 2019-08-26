@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<Workbook
+    xmlns='urn:schemas-microsoft-com:office:spreadsheet'
+    xmlns:o='urn:schemas-microsoft-com:office:office'
+    xmlns:x='urn:schemas-microsoft-com:office:excel'
+    xmlns:ss='urn:schemas-microsoft-com:office:spreadsheet'
+    xmlns:html='http://www.w3.org/TR/REC-html40'>
+    <Styles>
+        <Style ss:ID='pl1'>
+            <NumberFormat ss:Format='mmm d yyyy h:mm am/pm'/>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name='Autopays'>
+        <Table>
+            <Row>
+                <Cell><Data ss:Type='String'>Autopay ID</Data></Cell>
+                <Cell><Data ss:Type='String'>Status</Data></Cell>
+                <Cell><Data ss:Type='String'>Start</Data></Cell>
+                <Cell><Data ss:Type='String'>End</Data></Cell>
+                <Cell><Data ss:Type='String'>Account Ref</Data></Cell>
+                <Cell><Data ss:Type='String'>PL User ID</Data></Cell>
+                <Cell><Data ss:Type='String'>Resident</Data></Cell>
+                <Cell><Data ss:Type='String'>Property</Data></Cell>
+                <Cell><Data ss:Type='String'>Day of Month</Data></Cell>
+                <Cell><Data ss:Type='String'>Frequency</Data></Cell>
+                <Cell><Data ss:Type='String'>Act #</Data></Cell>
+                <Cell><Data ss:Type='String'>Amount</Data></Cell>
+                <Cell><Data ss:Type='String'>Email</Data></Cell>
+            </Row>
+            <Row>
+                <Cell><Data ss:Type='String'>666936</Data></Cell>
+                <Cell><Data ss:Type='String'>Active</Data></Cell>
+                <Cell><Data ss:Type='String'>Jul 2018</Data></Cell>
+                <Cell><Data ss:Type='String'>Indefinite</Data></Cell>
+                <Cell><Data ss:Type='String'>00001</Data></Cell>
+                <Cell><Data ss:Type='String'>47139624</Data></Cell>
+                <Cell><Data ss:Type='String'>Test Resident_aaq</Data></Cell>
+                <Cell><Data ss:Type='String'>Doubtfire Village/123 Main St</Data></Cell>
+                <Cell><Data ss:Type='Number'>1</Data></Cell>
+                <Cell><Data ss:Type='String'>Quarterly</Data></Cell>
+                <Cell><Data ss:Type='String'>VISA 0009</Data></Cell>
+                <Cell><Data ss:Type='String'>Variable</Data></Cell>
+                <Cell><Data ss:Type='String'>testresident_aaq@paylease.com</Data></Cell>
+            </Row>
+            <Row>
+                <Cell><Data ss:Type='String'>666919</Data></Cell>
+                <Cell><Data ss:Type='String'>Active</Data></Cell>
+                <Cell><Data ss:Type='String'>Jul 2018</Data></Cell>
+                <Cell><Data ss:Type='String'>Aug 2018</Data></Cell>
+                <Cell><Data ss:Type='String'>1102</Data></Cell>
+                <Cell><Data ss:Type='String'>47158234</Data></Cell>
+                <Cell><Data ss:Type='String'>Mister Bean</Data></Cell>
+                <Cell><Data ss:Type='String'>Doubtfire Village/123 Main St</Data></Cell>
+                <Cell><Data ss:Type='Number'>1</Data></Cell>
+                <Cell><Data ss:Type='String'>Monthly</Data></Cell>
+                <Cell><Data ss:Type='String'>qa bank #1234</Data></Cell>
+                <Cell><Data ss:Type='String'>Variable</Data></Cell>
+                <Cell><Data ss:Type='String'>mbean@example.com</Data></Cell>
+            </Row>
+            <Row>
+                <Cell><Data ss:Type='String'>655695</Data></Cell>
+                <Cell><Data ss:Type='String'>Active</Data></Cell>
+                <Cell><Data ss:Type='String'>May 2018</Data></Cell>
+                <Cell><Data ss:Type='String'>Indefinite</Data></Cell>
+                <Cell><Data ss:Type='String'>00001</Data></Cell>
+                <Cell><Data ss:Type='String'>47139624</Data></Cell>
+                <Cell><Data ss:Type='String'>Test Resident_aaq</Data></Cell>
+                <Cell><Data ss:Type='String'>Doubtfire Village/123 Main St</Data></Cell>
+                <Cell><Data ss:Type='Number'>1</Data></Cell>
+                <Cell><Data ss:Type='String'>Monthly</Data></Cell>
+                <Cell><Data ss:Type='String'>some bank #1234</Data></Cell>
+                <Cell><Data ss:Type='String'>Up to $1.00 max</Data></Cell>
+                <Cell><Data ss:Type='String'>testresident_aaq@paylease.com</Data></Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+</Workbook>

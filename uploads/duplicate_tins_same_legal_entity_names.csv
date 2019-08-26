@@ -1,0 +1,6 @@
+taxid,legal_entity_name,doing_business_as,legal_entity_type,legal_addr,legal_addr2,legal_city,legal_state,legal_zip,email,mail_care_of,mail_addr,mail_addr2,mail_city,mail_state,mail_zip
+987654321,Fake Corp,,CORPORATION,"999 Fake Drive, Suite 8",,San Diego,CA,92121,john@fakeemail.com,c/o John Doe,"999 Fake Drive, Suite 8",,San Diego,CA,92121
+987654321,Fake Corp,,CORPORATION,"999 Fake Drive, Suite 8",,San Diego,CA,92121,john@fakeemail.com,c/o John Doe,"999 Fake Drive, Suite 8",,San Diego,CA,92121
+012345678,"Pretend Company LLC",,LIMITED_LIABILITY_COMPANY,"123 Pretend Street, Suite 2",,San Diego,CA,92121,bob@pretendemail.com,c/o Pretend People,"123 Pretend Street, Suite 2",,San Diego,CA,92121
+012345679,"Pretend Company LLC",,LIMITED_LIABILITY_COMPANY,"123 Pretend Street, Suite 2",,San Diego,CA,92121,bob@pretendemail.com,c/o Pretend People,"123 Pretend Street, Suite 2",,San Diego,CA,92121
+192837465,Test Corp,,CORPORATION,222 Test Avenue,,San Diego,CA,92121,jane@testemail.com,c/o Jane Smith,222 Test Avenue,,San Diego,CA,92121

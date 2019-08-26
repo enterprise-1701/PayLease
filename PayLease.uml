@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.paylease.app.qa.framework.pages</OriginalElement>
+  <nodes>
+    <node x="796.25" y="0.0">com.paylease.app.qa.framework.pages.PageBase</node>
+    <node x="919.0" y="1113.0">com.paylease.app.qa.framework.DriverManager</node>
+    <node x="212.0" y="1387.0">com.paylease.app.qa.framework.DriverFactory</node>
+    <node x="1237.0" y="542.0">com.paylease.app.qa.framework.pages.pm.LoginPagePm</node>
+    <node x="0.0" y="542.0">com.paylease.app.qa.framework.pages.admin.LoginPageAdmin</node>
+    <node x="603.0" y="1236.0">com.paylease.app.qa.functional.tests.admin.PmApprovalTest</node>
+    <node x="1486.0" y="267.0">com.paylease.app.qa.framework.pages.pm.RegistrationPage</node>
+    <node x="291.0" y="564.0">com.paylease.app.qa.framework.pages.admin.PmApprovalPage</node>
+    <node x="572.0" y="564.0">com.paylease.app.qa.framework.pages.admin.PmPrincipalProfileEditPage</node>
+    <node x="647.5" y="1113.0">com.paylease.app.qa.framework.ScriptBase</node>
+    <node x="0.0" y="1113.0">com.paylease.app.qa.framework.ResourceFactory</node>
+    <node x="0.0" y="1387.0">com.paylease.app.qa.framework.DataHelper</node>
+    <node x="303.0" y="1113.0">com.paylease.app.qa.framework.AppConstant</node>
+    <node x="947.0" y="575.0">com.paylease.app.qa.framework.pages.admin.ResetPasswordPage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.paylease.app.qa.functional.tests.admin.PmApprovalTest" target="com.paylease.app.qa.framework.ScriptBase">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.admin.LoginPageAdmin" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="0.0" y="-125.5" />
+      <point x="135.5" y="227.0" />
+      <point x="816.1666666666667" y="227.0" />
+      <point x="-99.58333333333326" y="103.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.pm.LoginPagePm" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="0.0" y="-125.5" />
+      <point x="1351.5" y="237.0" />
+      <point x="975.5" y="237.0" />
+      <point x="59.75" y="103.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.admin.PmApprovalPage" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="0.0" y="-103.5" />
+      <point x="421.5" y="237.0" />
+      <point x="856.0" y="237.0" />
+      <point x="-59.75" y="103.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.admin.PmPrincipalProfileEditPage" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="0.0" y="-103.5" />
+      <point x="749.5" y="247.0" />
+      <point x="895.8333333333333" y="247.0" />
+      <point x="-19.916666666666742" y="103.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.admin.ResetPasswordPage" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="0.0" y="-92.5" />
+      <point x="1082.0" y="247.0" />
+      <point x="935.6666666666667" y="247.0" />
+      <point x="19.916666666666742" y="103.5" />
+    </edge>
+    <edge source="com.paylease.app.qa.framework.pages.pm.RegistrationPage" target="com.paylease.app.qa.framework.pages.PageBase">
+      <point x="-1.1368683772161603E-13" y="-400.5" />
+      <point x="1653.0" y="227.0" />
+      <point x="1015.3333333333333" y="227.0" />
+      <point x="99.58333333333326" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.38430851063829785" x="910.0" y="742.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

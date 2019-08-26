@@ -1,0 +1,37 @@
+APP_URL=https://{yourname}.paylease.local/
+APP_URL_ACCESS_PUBLIC=FALSE
+SSH_PRIVATE_KEY_PATH=/Users/{yourname}/.ssh/id_rsa
+SSH_USERNAME={yourname}
+SSH_PASSPHRASE={yourpassphrase}
+SSH_HOST={yourname}.paylease.local
+WEB_APP_ROOT_DIR=/var/www/html/{yourname}/web/
+
+#The stub value points to a static IP
+STUB_HOST=http://10.100.5.71:8080
+
+#If you have docker and you are starting Zalenium to run your test then do it using local host and
+#also make sure to change BROWSER value to Zalenium
+ZALENIUM_HUB_IP=http://127.0.0.1
+
+#This value needs to be whatever the mounting directory is being used in the docker run command. If
+#you are running tests in Zalenium, this is a mandatory field which needs to be carefully set. N.B.
+#Your system needs to be have read/write permission to whatever folder you are mounting.
+ZALENIUM_MOUNTED_DIR=/Users/{username in your mac}/Downloads
+
+#When set to true this points to the Stub instead of Vantiv
+USE_VANTIV_STUB=FALSE
+
+DB_HOST =dev-db-write
+HIGHLIGHT=FALSE
+LOG_LEVEL=2
+
+#By default if you are testing on your local machine then browser should be set to Chrome. If you
+#are using Zalenium then it needs to be set to Zalenium.
+BROWSER=Chrome
+
+#The URL for Vantiv Stub 
+STUB_VANTIV_URL=http://10.100.5.71:8080/stub-web-service/stub?service=vantiv&tags=sale,registerTokenRequest,authorization,authReversal,credit,void,capture&dataValidators=credit_validator.csv,authorization_validator.csv,registerTokenRequest_validator.csv,sale_validator.csv
+
+#Path where deposit-service is in your local. Used for running managed deposits java tests.
+#Disregard if you do not have deposit-service repo on your local
+DEPOSIT_SERVICE_DIRECTORY =

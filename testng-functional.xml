@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Functional Test Suite" parallel="methods" thread-count="18"
+  data-provider-thread-count="1" verbose="5">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Functional">
+    <packages>
+      <package name="com.paylease.app.qa.api.tests.aapi"/>
+      <package name="com.paylease.app.qa.api.tests.gapi"/>
+      <package name="com.paylease.app.qa.functional.tests.admin"/>
+      <package name="com.paylease.app.qa.functional.tests.integration"/>
+      <package name="com.paylease.app.qa.functional.tests.pm"/>
+      <package name="com.paylease.app.qa.functional.tests.resident"/>
+      <package name="com.paylease.app.qa.smoke.tests"/>
+    </packages>
+  </test>
+</suite>
